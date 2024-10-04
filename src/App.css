@@ -1,38 +1,171 @@
-.App {
+
+
+body, html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f2d9e5;
+  background-color: #993366;
+  opacity: 0.8;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.intro {
+  font-family: cursive;
+  font-size: 3em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-p {
+  font-size: 1.5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-p, .my-image, .intro {
+  opacity: 0;
+  animation: fadeInAnimation 4s forwards; 
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+@keyframes fadeInAnimation {
   to {
-    transform: rotate(360deg);
+      opacity: 1; 
   }
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.my-image {
+  max-width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2%;
+  margin-top: 1%;
+  gap: 5%;
+  font-size: 1.5em;
+}
+
+.navbar a {
+  color: violet;
+}
+
+a:hover {
+  color: #4d004d;
+}
+
+.box {
+  display: inline-flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  border: 3px solid;
+  border-radius: 20px;
+  width: 300px;
+  height: 340px;
+  margin: 80px 40px;
+}
+
+.icloud, .linkedin, .github {
+  max-width: 200px;
+  height: auto;
+  border-radius: 30%;
+}
+
+h2 {
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+.cv {
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.video-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+
+video {
+  width: 80%;     
+  height: auto;    
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.calculator {
+  width:50%;
+  height: 50%;
+}
+
+.aboutme {
+  margin-bottom: 5%;
+}
+.ssa {
+  margin-bottom: 30px;
+}
+
+.skills, figcaption {
+  width: 100%;
+  height: auto;
+}
+
+.skills {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+
+figcaption { 
+  display: block;
+  font-size: 25px;
+}
+
+li { 
+  list-style-type: none;
+  font-weight: bold;
+}
+
+
+.set-1 {
+  margin-left: 5%;
+}
+.set-2 {
+  margin-left: 10%;
+}
+
+.logos {
+ display: inline-flex;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.list {
+  list-style-type: square;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    font-size: 20px;
+    justify-content: space-around;
+   }
 }
