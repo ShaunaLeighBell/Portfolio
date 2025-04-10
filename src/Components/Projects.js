@@ -1,10 +1,10 @@
 import React from "react";
-import Project6 from "/Users/shaunaleighbell/Documents/Projects/portfolio/src/Videos/Screen Recording 2024-09-06 at 22.13.27-1.mp4";
-import Project5 from "/Users/shaunaleighbell/Documents/Projects/portfolio/src/Videos/Screen Recording 2024-09-06 at 22.13.12-1.mp4";
-import Project4 from "/Users/shaunaleighbell/Documents/Projects/portfolio/src/Videos/Screen Recording 2024-09-06 at 22.06.07-1.mp4";
-import Project3 from "/Users/shaunaleighbell/Documents/Projects/portfolio/src/Videos/Screen Recording 2024-09-06 at 22.10.08-1.mp4";
-import Project2 from "/Users/shaunaleighbell/Documents/Projects/portfolio/src/Videos/Screen Recording 2024-09-06 at 21.31.00-1.mp4";
-import Project1 from "/Users/shaunaleighbell/Documents/Projects/portfolio/src/Videos/Screen Recording 2024-09-06 at 21.31.37-1.mp4";
+import Project6 from "../Videos/Screen Recording 2024-09-06 at 22.13.27-1.mp4";
+import Project5 from "../Videos/Screen Recording 2024-09-06 at 22.13.12-1.mp4";
+import Project4 from "../Videos/Screen Recording 2024-09-06 at 22.06.07-1.mp4";
+import Project3 from "../Videos/Screen Recording 2024-09-06 at 22.10.08-1.mp4";
+import Project2 from "../Videos/Screen Recording 2024-09-06 at 21.31.00-1.mp4";
+import Project1 from "../Videos/Screen Recording 2024-09-06 at 21.31.37-1.mp4";
 
 export default function Projects() {
     return (
