@@ -8,7 +8,7 @@ export default function Contact() {
     return (
         <section id="contact">
             <div>
-                <a href="https://docs.google.com/document/d/1VOMna2PMlIscY1KRx-OtXum2C8g6GYTR/edit?usp=sharing&ouid=101851668651426806402&rtpof=true&sd=true" target="_blank" download="Shauna Leigh Bell CV.docx"
+                <a href="https://docs.google.com/document/d/1NXf7eDMUL-8JffW1ZIO6r4CaqpCExV6NAO6Xz3CyVNM/edit?usp=sharing" target="_blank" download="Shauna Leigh Bell CV.docx"
                     className="cv"><img src={cv} alt="cv download" className="cv"/></a>
             </div>
             <div className="box">
